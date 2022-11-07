@@ -1,0 +1,71 @@
+import pandas as pd
+import os
+import csv
+import numpy as np
+
+os.chdir('C:/Users/zanna/OneDrive/Documents/MSIS')
+
+directory= 'C:/Users/zanna/OneDrive/Documents/MSIS'
+
+#hd1=hospital data
+#hd2=personal data
+hd1 = pd.read_table('Californiahospitaldata.csv', sep=',')
+hd2 = pd.read_table('Californiahospitaldata_Personnel.txt', sep='\t')
+
+left=pd.DataFrame(hd1)
+right=pd.DataFrame(hd2)
+
+merged=pd.merge(left,right,on=['HospitalID'])
+merged
+
+#remove duplicate columns
+merged2=merged.T.drop_duplicates().T
+merged2.columns
+
+#removing 3 columns
+merged3=merged2.drop(['Work_ID','PositionID','Website'],axis=1)
+merged3.columns
+
+new=merged3[(merged3.Teaching=='Small/Rural') & (merged3.AvlBeds>=15) & (merged3.OperInc>=0)]
+
+# saving data to new directory
+new.to_csv('C:/Users/zanna/OneDrive/Documents/Data.txt')
+
+#Renaming columns
+new.rename(columns={'NoFTE':'FullTimeCount','NetPatRev': 'NetPatientRevenue', 'InOperExp' :'InpatientOperExp',
+                    'OutOperExp':'OutpatientOperExp', 'OperRev':'Operating_Revenue', 'OperInc':'Operating_Income'}, inplace=True)
+
+
+new['Name']=hd1.iloc[:2, 3]
+new['PositionTitle']= ['Regional Representative', 'Safety Inspection Member']
+new['LastName']=['Saba', 'Saba']
+new['FirstName']=['Zannatus', 'Zannatus']
+
+from datetime import datetime
+new['StartDate']=datetime.today()
+
+new['Compensation']=['23987']
+new
+new['MaxTerm']=['2']
+
+new_merge=pd.DataFrame(new)
+
+new_merge['StartDate']=datetime.strftime('%Y-%m-%d')
+
+#Using the new_merge data, select all hospitals that are non-profit with more than 250 
+#employees, unless the net patient revenue is smaller than $109,000. 
+#Remove the columns containing employee information and save it as a new dataframe. 
+#Export the data as a new tab-delimited file.
+
+new4=pd.DataFrame()
+new4=[(new_merge.TypeControl=='Non Profit') & (new_merge.FullTimeCount>250) & (new_merge.NetPatientRevenue>109000)]
+new4=new_merge.drop(['Work_ID','PositionID', 'LastName', 'FirstName', 'Gender', 'StartDate', 'Phone', 'Email'],axis=1)
+new4.to_csv('C:/Users/zanna/OneDrive/Documents/Data.txt')
+
+#Using the new_merge data, select all the Regional Representatives 
+#who work at a hospital with operating income greater than $100,000.
+# Save this as a new dataframe and then export it as a new file
+
+new5=pd.DataFrame()
+new5=[(new_merge.PositionID==' Regional Representatives') & (new_merge.Operating_Income>100000)]
+new5.to_csv('C:/Users/zanna/OneDrive/Documents/Data.txt')
