@@ -1,0 +1,65 @@
+HospitalID	Work_ID	LastName	FirstName	Gender	PositionID	PositionTitle	Compensation	MaxTerm	StartDate	Phone	Email
+35665	351131	Cherukuri	Dileep	M	4	Safety Inspection Member	23987	2	1/1/2019	405-564-5580	dileep.cherukuri@okstate.edu
+12145	756481	Rodriguez	Jose	M	1	Regional Representative	46978	4	1/1/2009	405-744-2238	jose.rodriguez@edihealth.com
+45771	756481	Rodriguez	Jose	M	1	Regional Representative	46978	4	1/1/2011	405-744-2238	jose.rodriguez@edihealth.com
+43353	756481	Rodriguez	Jose	M	4	Safety Inspection Member	23987	2	1/1/2011	405-744-2238	jose.rodriguez@edihealth.com
+17718	811240	Charles	Kenneth	M	1	Regional Representative	46978	4	1/1/2009	405-744-3412	kenneth.charles@edihealth.com
+17736	811240	Charles	Kenneth	M	3	Acting Director	248904	8	1/1/2006	405-744-3412	kenneth.charles@edihealth.com
+33207	811240	Charles	Kenneth	M	2	State Board Representative	89473	3	1/1/2010	405-744-3412	kenneth.charles@edihealth.com
+46985	548312	Smith	Frank	M	1	Regional Representative	46978	4	1/1/2010	405-744-5687	frank.smith@edihealth.com
+28283	548312	Smith	Frank	M	3	Acting Director	248904	8	1/1/2005	405-744-5687	frank.smith@edihealth.com
+48321	613853	Alla	Siva	M	4	Safety Inspection Member	23987	2	1/1/2018	405-762-4695	siva.alla@okstate.edu
+35512	625519	Brown	Marietta	F	1	Regional Representative	46978	4	1/1/2009	469-235-8221	marietta.brown@ihc.com
+13722	625519	Brown	Marietta	F	4	Safety Inspection Member	23987	2	1/1/2012	469-235-8221	marietta.brown@ihc.com
+11875	380668	Smith	Mary	F	1	Regional Representative	46978	4	1/1/2011	469-767-5485	mary.smith@ihc.com
+22460	380668	Smith	Mary	F	4	Safety Inspection Member	23987	2	1/1/2012	469-767-5485	mary.smith@ihc.com
+46838	229849	Milgrom	Patricia	F	1	Regional Representative	46978	4	1/1/2009	479-178-9584	patricia.milgrom@brokenhealth.com
+13738	229849	Milgrom	Patricia	F	4	Safety Inspection Member	23987	2	1/1/2011	479-178-9584	patricia.milgrom@brokenhealth.com
+38802	310431	Dong	HongWei	F	1	Regional Representative	46978	4	1/1/2010	479-354-4864	hongwei.dong@brokenhealth.com
+31032	310431	Dong	HongWei	F	4	Safety Inspection Member	23987	2	1/1/2012	479-354-4864	hongwei.dong@brokenhealth.com
+46348	664583	Paanua	Kaaluai	M	1	Regional Representative	46978	4	1/1/2011	479-684-1883	kaaluai.paanua@brokenhealth.com
+38900	664583	Paanua	Kaaluai	M	1	Regional Representative	46978	4	1/1/2011	479-684-1883	kaaluai.paanua@brokenhealth.com
+37043	664583	Paanua	Kaaluai	M	2	State Board Representative	89473	3	1/1/2010	479-684-1883	kaaluai.paanua@brokenhealth.com
+17757	308150	Fourier	Craig	M	3	Acting Director	248904	8	1/1/2005	503-235-4877	craig.fourier@comenitymed.com
+33192	308150	Fourier	Craig	M	1	Regional Representative	46978	4	1/1/2011	503-235-4877	craig.fourier@comenitymed.com
+26206	308150	Fourier	Craig	M	3	Acting Director	248904	8	1/1/2011	503-235-4877	craig.fourier@comenitymed.com
+22181	661286	Jones	Holly	F	2	State Board Representative	89473	3	1/1/2012	503-445-4562	holly.jones@comenitymed.com
+39102	661286	Jones	Holly	F	2	State Board Representative	89473	3	1/1/2012	503-445-4562	holly.jones@comenitymed.com
+44817	363672	Marlin	Bill	M	2	State Board Representative	89473	3	1/1/2010	503-645-7508	bill.marlin@larcmed.com
+39050	363672	Marlin	Bill	M	3	Acting Director	248904	8	1/1/2008	503-645-7508	bill.marlin@larcmed.com
+17741	363672	Marlin	Bill	M	4	Safety Inspection Member	23987	2	1/1/2011	503-645-7508	bill.marlin@larcmed.com
+36569	966527	Flemming	Kris	F	2	State Board Representative	89473	3	1/1/2010	503-758-9066	kris.flemming@larcmed.com
+20231	966527	Flemming	Kris	F	2	State Board Representative	89473	3	1/1/2012	503-758-9066	kris.flemming@larcmed.com
+81351	594357	Nettem	Tanmayee	F	4	Safety Inspection Member	23987	2	1/1/2018	720-546-7000	tanmayee.nettem@okstate.edu
+37285	304224	Wood	Emily	F	4	Safety Inspection Member	23987	2	1/1/2011	785-532-1661	emily.wood@hsu.edu
+29805	304224	Wood	Emily	F	2	State Board Representative	89473	3	1/1/2011	785-532-1661	emily.wood@hsu.edu
+39076	304224	Wood	Emily	F	1	Regional Representative	46978	4	1/1/2010	785-532-1661	emily.wood@hsu.edu
+45740	721586	Web	David	M	4	Safety Inspection Member	23987	2	1/1/2012	785-532-2452	david.web@comenitymed.com
+34454	721586	Web	David	M	3	Acting Director	248904	8	1/1/2012	785-532-2452	david.web@comenitymed.com
+45736	721586	Web	David	M	2	State Board Representative	89473	3	1/1/2011	785-532-2452	david.web@comenitymed.com
+20266	231581	Adams	Sandy	F	1	Regional Representative	46978	4	1/1/2009	785-532-3333	sandy.adams@comenitymed.com
+44982	231581	Adams	Sandy	F	1	Regional Representative	46978	4	1/1/2008	785-532-3333	sandy.adams@comenitymed.com
+28812	908658	Holmes	Holly	F	3	Acting Director	248904	8	1/1/2003	785-532-4515	holly.holmes@asu.edu
+46844	908658	Holmes	Holly	F	3	Acting Director	248904	8	1/1/2010	785-532-4515	holly.holmes@asu.edu
+22598	908658	Holmes	Holly	F	3	Acting Director	248904	8	1/1/2012	785-532-4515	holly.holmes@asu.edu
+21053	318165	Coulter	Tracy	F	4	Safety Inspection Member	23987	2	1/1/2011	785-532-6548	tracy.coulter@wou.edu
+19868	318165	Coulter	Tracy	F	1	Regional Representative	46978	4	1/1/2010	785-532-6548	tracy.coulter@wou.edu
+10767	926378	Adamson	David	M	3	Acting Director	248904	8	1/1/2002	785-532-7573	david.adamson@txbiomed.net
+25667	926378	Adamson	David	M	1	Regional Representative	46978	4	1/1/2012	785-532-7573	david.adamson@txbiomed.net
+45067	926378	Adamson	David	M	4	Safety Inspection Member	23987	2	1/1/2012	785-532-7573	david.adamson@txbiomed.net
+20225	856720	Roberts	Melissa	F	4	Safety Inspection Member	23987	2	1/1/2011	785-532-9779	melissa.roberts@txbiomed.net
+46996	856720	Roberts	Melissa	F	4	Safety Inspection Member	23987	2	1/1/2009	785-532-9779	melissa.roberts@txbiomed.net
+20277	398103	Johanson	Sandy	F	1	Regional Representative	46978	4	1/1/2012	801-216-4821	sandy.johanson@ihc.com
+34959	398103	Johanson	Sandy	F	1	Regional Representative	46978	4	1/1/2012	801-216-4821	sandy.johanson@ihc.com
+37436	398103	Johanson	Sandy	F	2	State Board Representative	89473	3	1/1/2012	801-216-4821	sandy.johanson@ihc.com
+33251	411280	Manin	Emily	F	2	State Board Representative	89473	3	1/1/2009	801-223-6845	emily.manin@ihc.com
+32930	411280	Manin	Emily	F	1	Regional Representative	46978	4	1/1/2011	801-223-6845	emily.manin@ihc.com
+37393	909709	Iwata	Akira	M	1	Regional Representative	46978	4	1/1/2011	801-611-9161	akira.iwata@hsu.edu
+39110	909709	Iwata	Akira	M	1	Regional Representative	46978	4	1/1/2012	801-611-9161	akira.iwata@hsu.edu
+38798	909709	Iwata	Akira	M	1	Regional Representative	46978	4	1/1/2011	801-611-9161	akira.iwata@hsu.edu
+17700	704360	Frank	Vernon	M	3	Acting Director	248904	8	1/1/2005	801-687-2845	vernon.frank@ihc.com
+33283	704360	Frank	Vernon	M	1	Regional Representative	46978	4	1/1/2012	801-687-2845	vernon.frank@ihc.com
+33242	704360	Frank	Vernon	M	4	Safety Inspection Member	23987	2	1/1/2011	801-687-2845	vernon.frank@ihc.com
+46342	768057	Tanner	Patricia	F	3	Acting Director	248904	8	1/1/2011	801-687-7877	patricia.tanner@prohealth.net
+43437	768057	Tanner	Patricia	F	1	Regional Representative	46978	4	1/1/2010	801-687-7877	patricia.tanner@prohealth.net
+29823	768057	Tanner	Patricia	F	3	Acting Director	248904	8	1/1/2009	801-687-7877	patricia.tanner@prohealth.net
