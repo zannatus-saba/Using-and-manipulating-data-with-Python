@@ -1,4 +1,4 @@
-# Using-data-with-Python
+# Using and manipulating data-with-Python
 
 Context of project
 You currently work in the Information Systems department for a consulting firm working with the state government agency that oversees the healthcare system in California. Your administrator, Randall Cunningham, reports directly to the CIO of your company. You have been asked to join a team charged with assessing the condition of the healthcare system in California. Several surveys were emailed to a random sample of 61 hospitals and the results have been recorded in the file CaliforniaHospitalData.csv. Additionally, you have been provided with personnel data containing employee information within the file CaliforniaHospitalData_Personnel.txt. See the tables below for more metadata.
